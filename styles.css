@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my_button {
+    background-color: rgb(68, 199, 103);
+    border-radius: 28px;
+    border: 1px solid rgb(24, 171, 41);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: rgb(47, 102, 39) 0px 1px 0px;
+    position: absolute;
+}
+.inbal {
+    top: 150px;
+    right: 360px;
+}
+.roi {
+    top: 450px;
+    right: 660px;
+}
+.amitai {
+    top: 250px;
+    right: 1060px;
+}
+.shilo {
+    top: 350px;
+    right: 760px;
+}
+.yael {
+    top: 50px;
+    right: 1060px;
+}
