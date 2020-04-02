@@ -8,7 +8,7 @@ if (number<10) {
 
 document.querySelector('body').style.backgroundImage = "url('images/image_" + number + ".png')";
 
-
+// side bars
 document.querySelectorAll('[custom]').forEach(function(tab) {
     tab.addEventListener("click", function(event){
         document.querySelectorAll(".main_screen").forEach(function(div) {
