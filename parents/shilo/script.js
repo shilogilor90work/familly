@@ -18,8 +18,25 @@ document.querySelectorAll('[custom]').forEach(function(tab) {
     });
 });
 
-// for inbal
+var caller = $("#runnning");
 
+function move()
+{
+    main_screen = $(".main_screen");
+    var randX = Math.floor(Math.random() * (main_screen.width()));
+    var randY = Math.floor(Math.random() * (main_screen.height() - 100));
+    console.log([randX, randY]);
+    caller.stop().animate({"left": randX + "px", "top": randY + "px"});
+}
+
+$(document).ready(function() {
+
+    caller.on('mouseenter', move);
+    caller.on('click', function(){
+        alert('clicked!');
+    });
+
+});
 
 // for roi
 
